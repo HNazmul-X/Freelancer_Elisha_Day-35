@@ -1,10 +1,9 @@
 .drag-resize-container {
   position: relative;
-  width: 1140px;
-  height: 600px;
+  width: 1000px;
+  height: 1000px;
   margin: auto;
   background: grey;
-  overflow: hidden;
 }
 
 .drag-resize-container .resize-box-info {
@@ -16,8 +15,16 @@
   z-index: 1000;
 }
 
-.drag-resize-container .resize-box-info h5 {
+.drag-resize-container .resize-box-info h6 {
   margin-bottom: 5px;
+}
+
+.drag-resize-container .resize-box-info h6::-moz-selection {
+  background: white;
+}
+
+.drag-resize-container .resize-box-info h6::selection {
+  background: white;
 }
 
 .drag-resize-container .adbox {
