@@ -1,5 +1,6 @@
-.drb-box>div{
+.drb-box>.StyledRect-sc-1uso172-0{
   background-color: rgba(240, 240, 240, 0.61);
+  cursor: move;
 }
 button{
   border:1px solid grey;

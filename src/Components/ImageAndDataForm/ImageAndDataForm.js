@@ -1,8 +1,12 @@
 import React, { useContext } from 'react';
 import { EssentialContext } from '../../App';
 
+
+
+
+
 const ImageAndDataForm = () => {
-      const [essentialContext , setEssentialContext] = useContext(EssentialContext)
+    const [essentialContext , setEssentialContext] = useContext(EssentialContext)
 
     return (
         <div className={!essentialContext.isFormShown && "d-none"}>
